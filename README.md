@@ -4,7 +4,8 @@ Atalho para liberação de porta no SELinux
 
 # Como usar:                                       
 Configure permissão de execução:               
-> `sudo chmod +x ./liberaporta.sh`                 
+> `sudo chmod +x ./liberaporta.sh`
+            
 Execute:
 
 >  `./liberaporta.sh PORTA` (1-65535)
