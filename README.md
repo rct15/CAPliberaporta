@@ -1,5 +1,6 @@
 # `liberaporta` 
-Capivara REPUBLICA 
+Capivara REPUBLICA
+
 Atalho para liberação de porta no SELinux    
 
 # Como usar:                                       
