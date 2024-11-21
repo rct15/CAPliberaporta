@@ -6,6 +6,7 @@ Atalho para liberação de porta no SELinux
 Configure permissão de execução:               
 > `sudo chmod +x ./liberaporta.sh`                 
 Execute:
+
 >  `./liberaporta.sh PORTA` (1-65535)
 
 O script solicitará a senha de usuário para continuar (sudo)
