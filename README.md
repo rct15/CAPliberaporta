@@ -22,4 +22,4 @@ O script solicitará a senha de usuário para continuar (sudo)
 # Versão 0.1a                                     
  Feito por ✪ Lima 立馬沒                         
  21 de novembro de 2024                          
- Capivara REPUBLICA - capivararepublica.com.br    
+ Capivara REPUBLICA - [capivararepublica.com.br](https://capivararepublica.com.br)
