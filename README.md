@@ -7,7 +7,7 @@ Conferiu se o serviço está rodando direitinho, se as regras de exceção no fi
 
 No meu caso eu estou testando ferramentas de _AI_ para minha [home-assistant (HASS)](https://www.home-assistant.io/), a [LLM Llama 3.2 `ollama`](https://ollama.com/), [transcrição de audio com `faster-whisper`](https://docs.linuxserver.io/images/docker-faster-whisper/) e [respostas de voz a partir de texto com o `piper`](https://github.com/linuxserver/docker-piper) e, ainda que a _HASS_ esteja rodando em um Raspberry PI 3B+, preciso de processamento mais bruto para conseguir rodar essas _AIs_, que estou fazendo em outro servidor na minha rede. Se ainda tiver curioso, estou usando o `Centos9` e `docker`. Como preciso de acesso externo ao servidor, mesmo que seja na minha rede local, é necessário adicionar cada porta de cada serviço especificamente, ou adicionar a aplicação (o binário em si) às exceções do `SELinux`, o que provavelmente o farei quando resolver que é hora do _commit_ para "produção".
 
-Meu `iptables` está configurado para aceitar todas as conexões da rede local, mas futuramente estará bloqueado em todas as portas, exceto as liberadas (DROP), então, atualizarei este script para também incluir as regras do `iptables`, além de checagem/validação das entradas
+Meu `iptables` está configurado para aceitar todas as conexões da rede local, mas futuramente estará bloqueado em todas as portas, exceto as liberadas (DROP), então, atualizarei este script para também incluir as regras do `iptables`, além de checagem/validação das entradas.
 
 # Como usar:                                       
 Configure permissão de execução:               
