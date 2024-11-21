@@ -1,6 +1,4 @@
-# `liberaporta` 
-Capivara REPUBLICA
-
+# CAP`liberaporta` 
 Atalho para liberação de porta no SELinux    
 
 # Como usar:                                       
