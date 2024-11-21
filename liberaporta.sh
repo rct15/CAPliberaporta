@@ -29,4 +29,4 @@ for f; do
   echo ">$f<"
 done
 
-semanage port -a -t http -p tcp $1
+semanage port -a -t http_port_t -p tcp $1
